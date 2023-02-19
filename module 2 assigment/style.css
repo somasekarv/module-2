@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+    margin-bottom: 15px;
+    font-size:50px;
+    font-family:sans-serif;
+    text-align: center;
+}
+.div1 {
+    float: right;
+    margin: -2.5px;
+    background-color:maroon;
+    border: 3.5px solid black;
+    font-size: 125%;
+    width:100px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.div2 {
+    float: right;
+    margin: -2.5px;
+    background-color:maroon;
+    border: 3.5px solid black;
+    font-size: 125%;
+    width:100px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.div3 {
+    float: right;
+    margin: -2.5px ;
+    background-color:maroon;
+    border: 3.5px solid black;
+    font-size: 125%;
+    width:100px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.cont1 {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-size: 25px;
+    margin: 4px;
+    height: 200px;
+    color: black;
+    
+}
+section{
+    position: relative;
+    padding: 15px;
+}
+p{
+    position: relative;
+    clear: right;
+
+}
+div{
+    position: relative;
+    background-color: gray;
+    border: 3.5px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom:auto;
+    margin-right: auto;
+}
+/*-------------large device------------*/
+@media (min-width:992px){
+    .fr {
+        float: left;
+        width: 33.33%;
+    }
+    .sr {
+        float:left;
+        width: 33.33%;
+    }
+    .tr {
+        float:left;
+        width: 33.33%;
+    }
+}
+/*-----------medium device-----------*/
+@media (min-width:768px) and (max-width:991px){
+    .fr{
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .sr{
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .tr{
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+/*----------small device-----------*/
+@media (max-width:767px){
+    .fr,.sr,.tr{
+        float: left;
+        width: 100%;
+    }
+}
